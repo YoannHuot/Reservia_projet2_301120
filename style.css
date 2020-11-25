@@ -1,7 +1,6 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-
 
 .pagenofooter {
     max-width: 1800px;
@@ -11,13 +10,12 @@ body {
 /* textes */
 
 strong {
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size  : 1.1em;
 }
 
 em {
-    color      : #0065FC;
+    color      : #0065fc;
     font-weight: bold;
     font-style : normal;
 }
@@ -25,8 +23,6 @@ em {
 p {
     margin: 0.1em;
 }
-
-
 
 /* Naviguation */
 .nav_mobile {
@@ -82,7 +78,7 @@ p {
     display    : flex;
     align-items: center;
 
-    color         : #0065FC;
+    color         : #0065fc;
     font-weight   : bold;
     padding-bottom: 15px;
 }
@@ -92,17 +88,18 @@ p {
 }
 
 .nav_desktop .nav_pages a:focus {
-    border-top: #0065FC 3px solid;
-    color     : #0065FC;
+    border-top: #0065fc 3px solid;
+    color     : #0065fc;
 }
 
 .nav_desktop .nav_pages a:hover {
-    border-top: #0065FC 3px solid;
-    color     : #0065FC;
+    border-top: #0065fc 3px solid;
+    color     : #0065fc;
 }
 
-/* Naviguation dynamique */
 
+
+/* Naviguation dynamique */
 
 .nav_pages_activites:hover {
     opacity        : 70%;
@@ -146,7 +143,6 @@ header mark {
     background-color: white;
     padding-top     : 10px;
     margin-bottom   : 35px;
-
 }
 
 .info {
@@ -154,6 +150,7 @@ header mark {
     background-color: blue;
     border-radius   : 5em;
 }
+
 
 
 /* Travail sur le bouton recherche et géoloc*/
@@ -165,19 +162,17 @@ header mark {
 .geoloc {
     display        : flex;
     justify-content: space-between;
-    border         : #F2F2F2 solid 1px;
+    border         : #f2f2f2 solid 1px;
     border-radius  : 0.8em;
     width          : 35em;
     height         : 3em;
 }
 
-
-
 .geoloc_picto {
     display                   : flex;
     justify-content           : center;
     width                     : 20%;
-    background-color          : #F2F2F2;
+    background-color          : #f2f2f2;
     border-radius             : 0.75em;
     border-bottom-right-radius: 0em;
     border-top-right-radius   : 0em;
@@ -200,14 +195,14 @@ header mark {
     font-weight    : bolder;
 
     color                    : white;
-    background-color         : #0065FC;
+    background-color         : #0065fc;
     border-radius            : 0.75em;
     border-bottom-left-radius: 0em;
     border-top-left-radius   : 0em;
 }
 
 input {
-    font-family    : 'Raleway', sans-serif;
+    font-family    : "Raleway", sans-serif;
     display        : flex;
     text-decoration: none;
     border         : none;
@@ -216,7 +211,7 @@ input {
 }
 
 .geoloc_recherche input {
-    background-color: #0065FC;
+    background-color: #0065fc;
     color           : white;
     font-size       : 1em;
     font-weight     : bold;
@@ -227,29 +222,29 @@ input {
     color           : black;
     font-size       : 1.1em;
     font-weight     : bold;
-
 }
 
 ::placeholder {
     text-decoration : none;
     background-color: white;
     color           : greyS;
-    font-family     : 'Raleway', sans-serif;
+    font-family     : "Raleway", sans-serif;
     border          : none;
     font-weight     : bold;
     background-clip : content-box;
 }
 
 
+
 /* delete cross du placeholder */
 
-input[type=search]::-ms-clear {
+input[type="search"]::-ms-clear {
     display: none;
     width  : 0;
     height : 0;
 }
 
-input[type=search]::-ms-reveal {
+input[type="search"]::-ms-reveal {
     display: none;
     width  : 0;
     height : 0;
@@ -292,26 +287,23 @@ select:focus {
 }
 
 .filtres li:hover {
-    background-color: #0065FC;
+    background-color: #0065fc;
     color           : white;
 }
-
 
 .filtres li {
     display      : flex;
     align-items  : center;
-    border       : 1px #DEEBFF solid;
+    border       : 1px #deebff solid;
     border-radius: 2em;
     height       : 3em;
     transition   : all 0.15s;
-
 }
 
 .filtres i {
     border-radius   : 0.5em;
     background-color: #deebff;
     color           : white;
-
 }
 
 .filtres .fas {
@@ -323,15 +315,13 @@ select:focus {
 
     justify-content: center;
     border-radius  : 6em;
-    color          : #0065FC;
+    color          : #0065fc;
 }
 
 .filtres strong {
     margin   : 0.8em;
     font-size: 1.2em;
 }
-
-
 
 
 
@@ -372,7 +362,7 @@ article ul {
 /* Hebergements à Marseille */
 .notation {
     display         : flex;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 
     justify-content: center;
     flex-wrap      : wrap;
@@ -411,12 +401,13 @@ article ul {
 }
 
 .fa-star {
-    color: #0065FC;
+    color: #0065fc;
 }
 
 .blanc {
     color: #dad8d8;
 }
+
 
 
 /* Les plus populaires */
@@ -425,7 +416,7 @@ article ul {
     display        : flex;
     justify-content: center;
 
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     flex-wrap       : wrap;
     width           : 32%;
     border-radius   : 2em;
@@ -454,14 +445,12 @@ article ul {
 .pop h2 {
     display        : flex;
     justify-content: space-between;
-    align-content  : center;
     width          : 90%;
 }
 
 .fa-chart-line {
     font-size: 1.5em;
 }
-
 
 .pop div {
     display       : flex;
@@ -472,8 +461,6 @@ article ul {
 
     padding: 1em;
     margin : 0px;
-
-
 }
 
 .pop ul {
@@ -482,12 +469,16 @@ article ul {
     padding-top : 1.5em;
 }
 
+
+
 /* dynamisation Lessections */
 
 article:hover {
     opacity  : 80%;
     transform: scale(1.02);
 }
+
+
 
 /* Activité à Marseille */
 
@@ -521,7 +512,6 @@ article:hover {
     padding-left   : 1em;
 }
 
-
 .activite a {
     display       : flex;
     flex-direction: column;
@@ -538,7 +528,6 @@ article:hover {
     width        : 100%;
 }
 
-
 .activite1,
 .activite4 {
     height: 100%;
@@ -548,7 +537,6 @@ article:hover {
 .activite4_photo {
     height: 90%;
 }
-
 
 .activite2,
 .activite5 {
@@ -560,8 +548,6 @@ article:hover {
     height: 80%;
 }
 
-
-
 .activite3,
 .activite6 {
     height: 40%;
@@ -571,6 +557,7 @@ article:hover {
 .activite6_photo {
     height: 76%;
 }
+
 
 
 /* dynamisation partie activite */
@@ -587,7 +574,7 @@ a:link {
 }
 
 .activite1:hover .activite2:hover {
-    opacity: 80%
+    opacity: 80%;
 }
 
 .activite1:hover {
@@ -621,12 +608,13 @@ a:link {
 }
 
 
+
 /* Footer */
 
 footer {
     display         : flex;
     justify-content : space-around;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     margin-top      : 4em;
 }
 
@@ -643,16 +631,17 @@ footer li {
     margin: 10px;
 }
 
+
+
 /* Media Queries Nav-bar */
 
-@media(max-width:1240px) {
+@media (max-width: 1240px) {
 
     /* Nav bar movile max-width:1240px */
 
     body {
         margin: 0px;
     }
-
 
     .nav_desktop {
         display: none;
@@ -685,10 +674,9 @@ footer li {
 
     .nav_pages_inscription_mobile {
         padding-right: 1.5em;
-        color        : #0065FC;
+        color        : #0065fc;
         font-weight  : bolder;
     }
-
 
     .nav_mobile_2 {
         display                    : flex;
@@ -710,8 +698,8 @@ footer li {
     }
 
     .nav_pages_hebergement_mobile:focus {
-        border-bottom: #0065FC 5px solid;
-        color        : #0065FC;
+        border-bottom: #0065fc 5px solid;
+        color        : #0065fc;
     }
 
     .nav_pages_activites_mobile {
@@ -723,22 +711,21 @@ footer li {
     }
 
     .nav_pages_activites_mobile:focus {
-        border-bottom: #0065FC 5px solid;
-        color        : #0065FC;
+        border-bottom: #0065fc 5px solid;
+        color        : #0065fc;
     }
-
 
     /* header max-width:1240px  */
 
-    header h2 { 
-        width: 80%;
+    header h2 {
+        width : 80%;
         margin: 1em 0em 0.5em 0.5em;
     }
 
-    header p { 
+    header p {
         text-align: justify;
-        width: 80%;
-        margin: 0em 0em 1.5em 0.5em;
+        width     : 80%;
+        margin    : 0em 0em 1.5em 0.5em;
     }
 
     .filtres {
@@ -759,7 +746,6 @@ footer li {
         margin: 0.2em;
     }
 
-    
     /* résultat recherche:1240px  */
 
     .lesections {
@@ -782,7 +768,6 @@ footer li {
         width        : 100%;
         order        : 1;
         margin-bottom: 2em;
-
     }
 
     .pop a {
@@ -806,7 +791,6 @@ footer li {
     }
 
     .notation {
-        flex-direction  : ;
         background-color: white;
     }
 
@@ -823,14 +807,10 @@ footer li {
         width : 100%;
     }
 
-
     .notation {
         width: 100%;
         order: 2;
     }
-
-
-
 
     /* activite mobile max-width:1240px  */
 
@@ -868,8 +848,7 @@ footer li {
     }
 }
 
-@media (max-width:814px) {
-
+@media (max-width: 814px) {
     .geoloc_recherche {
         display: none;
     }
@@ -881,7 +860,7 @@ footer li {
     .geoloc_picto_mobile {
         display         : flex;
         color           : white;
-        background-color: #0065FC;
+        background-color: #0065fc;
         height          : 100%;
         width           : 10%;
         align-items     : center;
@@ -916,6 +895,5 @@ footer li {
 
     footer ul {
         width: 100%;
-
     }
 }
