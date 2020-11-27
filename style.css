@@ -188,7 +188,7 @@ button {
 
     color                    : white;
     background-color         : #0065fc;
-    border-radius            : 0.75em;
+    border-radius            : 0em 0.75em 0.75em 0em;
     border: none;  
 
     font-size: 1em;
@@ -913,7 +913,7 @@ footer li {
 }
 
 @media (max-width: 600px) {
-    button span {
+    button  {
         display: none;
     }
 
