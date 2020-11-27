@@ -26,17 +26,6 @@ p {
 
 
 /* Naviguation */
-.nav_mobile {
-    display: none;
-}
-
-.nav_mobile_1 {
-    display: none;
-}
-
-.nav_mobile_2 {
-    display: none;
-}
 
 nav {
     display        : flex;
@@ -809,7 +798,7 @@ footer li {
         height: 60%;
     }
 
-    /* activite mobile max-width: 1024px  */
+    /* activite max-width: 1024px  */
 
     .activite {
         display        : grid;
@@ -885,14 +874,6 @@ footer li {
         font-size: 1.2em;
     }
     .notation a {
-        width: 90%;
-    }
-
-    .activite_mobile {
-        margin: 0em;
-    }
-
-    .activite_mobile a {
         width: 90%;
     }
 
