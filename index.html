@@ -14,24 +14,12 @@
 <body> 
     <div class="pagenofooter"> 
 <!-- logo + nav -->
-        <nav class="nav_desktop"> 
+        <nav> 
             <h1 class="logo"><img src="images/logo/Reservia.svg.svg" alt="Logo reservia"></h1>
             <div class="nav_pages">
-                <a href="#ancre_hebergement">Hébergement</a>
-                <a href="#ancre_activites">Activités</a>
+                <a href="#ancre_hebergement" class="nav_pages_hebergement">Hébergement</a>
+                <a href="#ancre_activites" class="nav_pages_activites">Activités</a>
                 <p class="nav_pages_inscription">S'inscrire</p>
-            </div>
-        </nav>
-
-        <nav class="nav_mobile"> 
-            <div class="nav_mobile_1">  
-                <p class="logo"><img src="images/logo/Reservia.svg.svg" alt="Logo reservia"></p>
-                <p class="nav_pages_inscription_mobile">S'inscrire</p>
-            </div>
-
-            <div class="nav_mobile_2"> 
-                <a href="#ancre_hebergement" class="nav_pages_hebergement_mobile">Hébergement</a>
-                <a href="#ancre_activites" class="nav_pages_activites_mobile">Activités</a>
             </div>
         </nav>
             
@@ -45,7 +33,7 @@
                 <div class="geoloc_picto"><i class="fas fa-map-marker-alt"></i></div> 
                 <div class="geoloc_form"> 
                     <input type="search" name="lieu" placeholder="Lyon, Marseille, Lille..." Value="Marseille, France"></div>
-                <div class="geoloc_recherche"><input type="button">Rechercher</div>
+                <div class="geoloc_recherche" type="button">Rechercher</div>
                 <div class="geoloc_picto_mobile"><i class="fas fa-search"></i></div>
             </div>
 
@@ -249,7 +237,7 @@
 
 <!-- Activité à Marseille-->
 
-    <h2 id="ancre_activites">Activités à Marseille</h2><br/> 
+    <h2 id="ancre_activites" class="titre_activite">Activités à Marseille</h2>
 
         <div class="activite">
 
