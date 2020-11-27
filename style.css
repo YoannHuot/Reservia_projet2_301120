@@ -179,7 +179,7 @@ header mark {
     border-radius  : 1em;
 }
 
-.geoloc_recherche {
+button {
     display        : flex;
     width          : 30%;
     justify-content: center;
@@ -189,9 +189,11 @@ header mark {
     color                    : white;
     background-color         : #0065fc;
     border-radius            : 0.75em;
-    border-bottom-left-radius: 0em;
-    border-top-left-radius   : 0em;
+    border: none;  
+
+    font-size: 1em;
 }
+
 
 input {
     font-family    : "Raleway", sans-serif;
@@ -207,15 +209,10 @@ input {
     font-weight     : bold;
 }
 
-.geoloc_form { 
-    display: flex;
-    width: 30%;
-}
-
 ::placeholder {
     text-decoration : none;
     background-color: white;
-    color           : greyS;
+    color           : grey;
     font-family     : "Raleway", sans-serif;
     border          : none;
     font-weight     : bold;
@@ -851,24 +848,6 @@ footer li {
 }
 
 @media (max-width: 768px) {
-    .geoloc_recherche {
-        display: none;
-    }
-
-    .geoloc {
-        width: 95%;
-    }
-
-    .geoloc_picto_mobile {
-        display         : flex;
-        color           : white;
-        background-color: #0065fc;
-        height          : 100%;
-        width           : 10%;
-        align-items     : center;
-        justify-content : center;
-        border-radius   : 1em 1em 1em 1em;
-    }
 
     .fa-search {
         font-size: 1.2em;
@@ -932,3 +911,27 @@ footer li {
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    button span {
+        display: none;
+    }
+
+    .geoloc {
+        width: 95%;
+    }
+
+    .geoloc_picto_mobile {
+        display         : flex;
+        color           : white;
+        background-color: #0065fc;
+        height          : 100%;
+        width           : 10%;
+        align-items     : center;
+        justify-content : center;
+        border-radius   : 1em 1em 1em 1em;
+    }
+
+    .fa-search {
+        font-size: 1.2em;
+    }
