@@ -802,6 +802,21 @@ footer li {
         height: 60%;
     }
 
+    .notation img { 
+        height: 123px; 
+        object-position: -15% 75%;
+    }
+    .notation :nth-child(5) img { 
+        object-position: 0% 95%;
+    }
+    .notation :nth-child(7) img { 
+        object-position: 0% 100%;
+    }
+
+    .notation :nth-child(8) img { 
+        object-position: -50% 65%;
+    }
+
     /* activite max-width: 1024px  */
 
     .activite {
@@ -859,16 +874,6 @@ footer li {
     .notation img { 
         height: 123px; 
         object-position: -15% 75%;
-    }
-    .notation :nth-child(5) img { 
-        object-position: 0% 95%;
-    }
-    .notation :nth-child(7) img { 
-        object-position: 0% 100%;
-    }
-
-    .notation :nth-child(8) img { 
-        object-position: -50% 65%;
     }
 
 
