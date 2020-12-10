@@ -1,5 +1,6 @@
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0px;
 }
 
 .pagenofooter {
@@ -9,10 +10,6 @@ body {
 
 /* textes */
 
-strong {
-    font-weight: bold;
-    font-size  : 1.1em;
-}
 
 em {
     font-weight: bold;
@@ -257,11 +254,12 @@ select:focus {
     width          : 75%;
 }
 
-.filtres h3 {
+.filtres h2 {
     display    : flex;
     font-size  : 1.3em;
     align-items: center;
-    margin     : 0px;
+    margin     : 20px 0px 5px 15px;
+    
 }
 
 .filtres ul {
@@ -320,6 +318,10 @@ select:focus {
     width          : 100%;
 }
 
+.lesections h3 { 
+    margin: 0px;
+}
+
 .lesections_titre {
     flex          : 90%;
     padding-bottom: 0.3em;
@@ -366,13 +368,14 @@ article ul {
     height: 200px;
     margin: 15px;
     font-size: 0.85em;
+    
 }
 
 .notation img {
     object-fit   : cover;
     border-radius: 1.5em 1.5em 0em 0em;
     width        : 100%;
-    height       : 130px;
+    height       : 123px;
     padding-bottom: 0.5em;
 }
 
@@ -402,6 +405,12 @@ article ul {
 
 
 /* Les plus populaires */
+
+.pop h3 { 
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
 
 .pop {
     display        : flex;
@@ -448,7 +457,7 @@ article ul {
     flex-direction: column;
 
     height: 100%;
-    width : 45%;
+    width : 50%;
 
     padding: 1em;
     margin : 0px;
@@ -458,6 +467,8 @@ article ul {
     display     : flex;
     padding-left: 0px;
     padding-top : 0.5em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.1em;
 }
 
 
@@ -517,7 +528,7 @@ article:hover {
 
 
 
-.activite p {
+.activite h3 {
     display        : flex;
     justify-content: flex-start;
     margin-top     : 1em;
@@ -578,10 +589,6 @@ a:link {
     cursor         : pointer;
     text-decoration: none;
     color          : black;
-}
-
-.activite1:hover .activite2:hover {
-    opacity: 80%;
 }
 
 .activite1:hover {
@@ -848,6 +855,23 @@ footer li {
 }
 
 @media (max-width: 768px) {
+
+    .notation img { 
+        height: 123px; 
+        object-position: -15% 75%;
+    }
+    .notation :nth-child(5) img { 
+        object-position: 0% 95%;
+    }
+    .notation :nth-child(7) img { 
+        object-position: 0% 100%;
+    }
+
+    .notation :nth-child(8) img { 
+        object-position: -50% 65%;
+    }
+
+
 
     .fa-search {
         font-size: 1.2em;
